@@ -12,7 +12,11 @@ public class Family {
 
         Children children = new Children();
         children.printChildrenAsset();
-        children.printParentAsset();
+        children.printMyName();
+        //children.printParentAsset();
+
+        Parent parent = new Parent();
+        parent.printMyName();
 
     }
 
